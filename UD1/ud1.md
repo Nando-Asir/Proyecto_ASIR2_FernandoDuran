@@ -58,7 +58,12 @@ Este sistema se enfoca en ofrecer una solución integral (ERP) que cubre las nec
 ---
 
 ### [3. Identificación de necesidades tecnológicas](#índice-de-apartados)
-![Scripts](https://img.shields.io/badge/Scripts-1BA0D7?style=for-the-badge&logo=scripts&logoColor=yellow)
+![Scripts](https://img.shields.io/badge/Scripts-Automation-blue?style=flat&logo=gnu-bash&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 
 Según lo que me han comentado compañeros que estuvieron alli el año pasado haciendo las prácticas, lo que la empresa necesitó en su momento, que no sé si lo habrán resuelto, es la automatización del proceso para lanzar el software suyo propio, que lo tienen que ir haciendo a mano.
 
