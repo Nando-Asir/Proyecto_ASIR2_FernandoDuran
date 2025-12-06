@@ -96,7 +96,7 @@ Normativa de Cumplimiento Crítico:
 
 ## Bibliografía / Webgrafía
 
-- Página del Polígono Industrial PISA \
+- Página web del Polígono Industrial PISA \
   🔗 [PISA](https://parquepisa.org/)
 
 - Página web de Comercio Local Digital en Mairena del Aljarafe \
@@ -108,6 +108,6 @@ Normativa de Cumplimiento Crítico:
 - Página web de información sobre Avanza Sistemas \
   🔗 [Avanza Sistemas](https://www.avanzasistemas.es/)
 
-- Páweb de información sobre Teamwork Solutions \
+- Página web de información sobre Teamwork Solutions \
   🔗 [TWS](https://teamwsolutions.net/) \
   🔗 [Aviso Legal](https://teamwsolutions.net/aviso-legal/)
