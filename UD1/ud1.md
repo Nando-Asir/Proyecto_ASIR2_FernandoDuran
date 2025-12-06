@@ -46,6 +46,10 @@ Es una empresa de Consultoría y Soluciones Tecnológicas ubicada en el Polígon
 
 TWS se enfoca en el desarrollo y soporte de software de gestión integral para empresas, abarcando áreas sensibles como la facturación, contabilidad y recursos humanos. Por lo tanto, TWS no solo opera en el sector de Información y Comunicaciones, que concentra el mayor volumen de contratación para Técnicos TIC a nivel nacional, sino que además maneja datos críticos, lo que exige los más altos estándares de sistemas, además de cumplir con las normativas y leyes necesarias como la Protección de Datos (RGPD y LOPDGDD) o la ENS (Esquema Nacional de Seguridad).
 
+El software de gestión empresarial de Teamwork Solutions (TWS) se llama **Gestión 360**.
+
+Este sistema se enfoca en ofrecer una solución integral (ERP) que cubre las necesidades de gestión de empresas de diversos tamaños. Al ser un software que maneja áreas críticas como facturación, contabilidad y recursos humanos es necesario implementar soluciones de Alta Disponibilidad, Contenedorización (Docker) y Seguridad para garantizar su estabilidad y continuidad.
+
 ---
 
 ### [3. Identificación de necesidades tecnológicas](#índice-de-apartados)
