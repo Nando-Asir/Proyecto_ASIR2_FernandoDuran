@@ -16,11 +16,12 @@
 ## Apartados
 
 ### [1. Análisis del sector tecnológico](#índice-de-apartados)
-Voy a centrar mi análisis en Mairena del Aljarafe, ya que he vivido toda mi vida allí así que hablaré del Parque Industrial de Servicios del Aljarafe (PISA), un centro empresarial estratégico que alberga una gran concentración de compañías de servicios, ingeniería y consultoría que requieren una infraestructura informática avanzada y segura.
+Voy a centrar mi análisis en Mairena del Aljarafe, ya que he vivido toda mi vida allí, así que hablaré del *Parque Industrial de Servicios del Aljarafe (PISA)*, un centro empresarial estratégico que alberga una gran concentración de compañías de servicios, ingeniería y consultoría que requieren una infraestructura informática avanzada y segura.
 
-El PISA funciona como un Hub Tecnológico Regional en el área metropolitana de Sevilla, albergando aproximadamente más de 850 empresas y generando más de 10.000 puestos de trabajo (según datos de la página del [PISA](https://parquepisa.org/)).
+El PISA funciona como un Hub Tecnológico Regional en el área metropolitana de Sevilla, albergando aproximadamente más de **850 empresas** y generando más de **10.000 puestos de trabajo** (según datos de la página del [PISA](https://parquepisa.org/)) e incluso podríamos hablar de sostenibilidad ya que ha invertido casi 1 millón de euros en carriles bici y aceras para poder ir a pie desde Mairena del Aljarafe, Bormujos o Tomares.
 
-Al estar estudiando ASIR, voy a centrarme en las empresas que más administradores de sistemas tienen contratados y pueden seguir contratando.
+Al estar estudiando ASIR, voy a centrarme en las empresas que más administradores de sistemas tienen contratados y pueden seguir contratando:
+
 - **Servinform**: Es una de las grandes empresas con presencia en PISA, especializada en servicios de Transformación Digital, Automatización Inteligente (RPA e IA), Customer Experience y Process Outsourcing. Una compañía de este calibre requiere constantemente administradores de sistemas expertos en Alta Disponibilidad (SAD), Infraestructura Cloud y seguridad de datos para gestionar sus servicios a terceros (Banca, Seguros, IT, Telco).
 
 - **Avanza Sistemas**: Dedicada a los sistemas de información y servicios tecnológicos. Su participación en programas como el Kit Digital y Kit Consulting la posiciona como un proveedor clave para la digitalización de pymes, lo que implica una necesidad constante de implementar y mantener servidores, redes y bases de datos.
