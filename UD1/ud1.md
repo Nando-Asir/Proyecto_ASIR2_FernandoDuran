@@ -58,6 +58,7 @@ Este sistema se enfoca en ofrecer una solución integral (ERP) que cubre las nec
 ---
 
 ### [3. Identificación de necesidades tecnológicas](#índice-de-apartados)
+![Scripts](https://img.shields.io/badge/Scripts-1BA0D7?style=for-the-badge&logo=scripts&logoColor=yellow)
 
 Según lo que me han comentado compañeros que estuvieron alli el año pasado haciendo las prácticas, lo que la empresa necesitó en su momento, que no sé si lo habrán resuelto, es la automatización del proceso para lanzar el software suyo propio, que lo tienen que ir haciendo a mano.
 
