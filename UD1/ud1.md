@@ -42,6 +42,8 @@ Al estar estudiando ASIR, voy a centrarme en las empresas que más administrador
 
 ### Empresa seleccionada -> [Teamwork Solutions (TWS)](https://teamwsolutions.net/).
 
+<p align="center"><img src="/UD1/img/tws.png" alt="tws" width="850" height="400"></p>
+
 Es una empresa de Consultoría y Soluciones Tecnológicas ubicada en el Polígono PISA de Mairena del Aljarafe (Sevilla), por su alta dependencia de la estabilidad, seguridad y eficiencia de sus sistemas de gestión (ERP).
 
 TWS se enfoca en el desarrollo y soporte de software de gestión integral para empresas, abarcando áreas sensibles como la facturación, contabilidad y recursos humanos. Por lo tanto, TWS no solo opera en el sector de Información y Comunicaciones, que concentra el mayor volumen de contratación para Técnicos TIC a nivel nacional, sino que además maneja datos críticos, lo que exige los más altos estándares de sistemas, además de cumplir con las normativas y leyes necesarias como la Protección de Datos (RGPD y LOPDGDD) o la ENS (Esquema Nacional de Seguridad).
