@@ -106,37 +106,35 @@ Normativa de Cumplimiento Crítico:
 ### [6. Guión inicial del proyecto](#índice-de-apartados)
 
 
-## Consistencia y Portabilidad
+#### Consistencia y Portabilidad
 
-### 1. Host / Entorno
+#### 1. Host / Entorno
 Configurar la máquina host (Linux/WServer) con Docker Engine y Docker Compose.
 
-### 2. Empaquetado
+#### 2. Empaquetado
 Desarrollar los `Dockerfiles` para contenerizar la aplicación Gestión 360 y su Base de Datos.
 
-### 3. Orquestación
+#### 3. Orquestación
 Crear el archivo `docker-compose.yml` para definir y levantar la arquitectura de servicios completa.
 
-### 4. Despliegue
+#### 4. Despliegue
 Escribir un script en Python para automatizar el despliegue inicial del entorno.
 
----
 
-## Seguridad y Continuidad
+### Seguridad y Continuidad
 
-### 1. Red Segura
+#### 1. Red Segura
 Aislar la red interna de contenedores y configurar reglas de firewall para limitar el tráfico.
 
-### 2. Continuidad
+#### 2. Continuidad
 Configurar un sistema de Alta Disponibilidad (HA) / Failover para asegurar la conmutación automática del servicio ante un fallo.
 
-### 3. Protección de Datos
+#### 3. Protección de Datos
 Automatizar las Copias de Seguridad (cifradas) de la Base de Datos (Oracle/PostgreSQL).
 
-### 4. Recuperación
+#### 4. Recuperación
 Documentar el Plan de Recuperación ante Desastres (DRP) con los pasos detallados para la restauración completa.
 
----
 
 ## Eficiencia y Monitorización
 
