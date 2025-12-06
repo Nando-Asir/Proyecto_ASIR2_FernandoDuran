@@ -20,7 +20,7 @@ Voy a centrar mi análisis en Mairena del Aljarafe, ya que he vivido toda mi vid
 
 El [informe](/UD1/documentos/stem.pdf) del SEPE establece que las ocupaciones STEM (Ciencia, Tecnología, Ingeniería y Matemáticas) son el motor del crecimiento económico y la digitalización en España. En este informe observamos que:
 
-- *Tendencia de Empleo*: La evolución de la población ocupada en STEM es positiva. Entre el cuarto trimestre de 2019 y el cuarto trimestre de 2023, el empleo STEM aumentó un 25,60%. Además, a diferencia de otras ocupaciones, el sector no se vio afectado por la crisis económica de 2020. Esto lo podemos confirmar con la página 18 del [informe de Trabajo en Andalucía](/UD1/documentos/informeTrabajo.pdf)
+- *Tendencia de Empleo*: La evolución de la población ocupada en STEM es positiva. Entre el cuarto trimestre de 2019 y el cuarto trimestre de 2023, el empleo STEM aumentó un 25,60%. Además, a diferencia de otras ocupaciones, el sector no se vio afectado por la crisis económica de 2020. Esto lo podemos confirmar con la página 18 del [informe de trabajo en Sevilla](/UD1/documentos/informeTrabajo.pdf)
 
 - *Estabilidad Contractual*: El sector STEM ofrece mayor estabilidad laboral que el mercado general, con una media de 1,46 contratos por persona contratada en 2023, frente a los 2,26 de la media estatal. Además, el **54,31% de los contratos en ocupaciones STEM son de carácter indefinido**.
 
