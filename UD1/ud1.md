@@ -58,7 +58,7 @@ Este sistema se enfoca en ofrecer una solución integral (ERP) que cubre las nec
 ---
 
 ### [3. Identificación de necesidades tecnológicas](#índice-de-apartados)
-![Scripts](https://img.shields.io/badge/Scripts-?style=flat&logo=gnu-bash&logoColor=white)
+![Scripts](https://img.shields.io/badge/Scripts-Automation-blue?style=flat&logo=gnu-bash&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
