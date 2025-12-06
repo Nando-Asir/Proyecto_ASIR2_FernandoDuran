@@ -17,7 +17,7 @@
 
 ### [1. Análisis del sector tecnológico](#índice-de-apartados)
 
-<p align="center"><img src="/UD1/img/pisa.jog" alt="pisa" width="850" height="400"></p>
+<p align="center"><img src="/UD1/img/pisa.jpg" alt="pisa" width="850" height="400"></p>
 
 Voy a centrar mi análisis en Mairena del Aljarafe, ya que he vivido toda mi vida allí, así que hablaré del *Parque Industrial de Servicios del Aljarafe (PISA)*, un centro empresarial estratégico que alberga una gran concentración de compañías de servicios, ingeniería y consultoría que requieren una infraestructura informática avanzada y segura...pero antes, hablemos un poco de España profundizando en STEM.
 
