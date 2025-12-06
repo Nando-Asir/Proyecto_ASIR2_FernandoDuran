@@ -40,7 +40,7 @@ Al estar estudiando ASIR, voy a centrarme en las empresas que más administrador
 
 ### [2. Selección de la empresa](#índice-de-apartados)
 
-### Empresa seleccionada -> Teamwork Solutions (TWS).
+### Empresa seleccionada -> [Teamwork Solutions (TWS)](https://teamwsolutions.net/).
 
 Es una empresa de Consultoría y Soluciones Tecnológicas ubicada en el Polígono PISA de Mairena del Aljarafe (Sevilla), por su alta dependencia de la estabilidad, seguridad y eficiencia de sus sistemas de gestión (ERP).
 
@@ -52,9 +52,9 @@ TWS se enfoca en el desarrollo y soporte de software de gestión integral para e
 
 Según lo que me han comentado compañeros que estuvieron alli el año pasado haciendo las prácticas, lo que la empresa necesitó en su momento, que no sé si lo habrán resuelto, es la automatización del proceso para lanzar el software suyo propio, que lo tienen que ir haciendo a mano.
 
-Gracias a mi formación en ASIR, creo que es uno de mis puntos fuertes, y que se puede lograr automatizar ese proceso con un script que lance su software y que además dé el nombre de usuario y contraseña a la empresa en cuestión, enlazando el software con la base de datos de Teamwork Solutions. Además, me comentaron que lo estaban haciendo en PowerShell, es decir, para Windows. Creo que estaría bien tener el mismo script enfocado a Linux por lo que pueda pasar. 
+Gracias a mi formación en ASIR, creo que es uno de mis puntos fuertes, y que se puede lograr **automatizar** ese proceso con un script que lance su software y que además dé el nombre de usuario y contraseña a la empresa en cuestión, enlazando el software con la base de datos de Teamwork Solutions. Además, me comentaron que lo estaban haciendo en PowerShell, es decir, para Windows. Creo que estaría bien tener el mismo script enfocado a Linux por lo que pueda pasar. 
 
-Incluso otra manera de automatizarlo todo y acelerar el despliegue del software, puede ser utilizando Docker. Con ello lograría un rápido despliegue además de una portabilidad mucho mayor que tener que estar instalando y descargando en los equipos de manera manual.
+Incluso otra manera de automatizarlo todo y acelerar el despliegue del software, puede ser utilizando **Docker**. Con ello lograría un rápido despliegue además de una portabilidad mucho mayor que tener que estar instalando y descargando en los equipos de manera manual.
 
 ---
 
@@ -72,14 +72,14 @@ Al trabajar con sistemas de gestión que manejan datos sensibles, es imprescindi
 
 Normativa de Cumplimiento Crítico:
 
-- Reglamento General de Protección de Datos (RGPD / GDPR):
-  - Relevancia: TWS maneja datos de clientes (identificativos, facturación). El proyecto debe asegurar que los sistemas de Alta Disponibilidad y Backup contemplan la privacidad desde el diseño y la seguridad por defecto.
+- **Reglamento General de Protección de Datos** (RGPD / GDPR):
+  - *Relevancia*: TWS maneja datos de clientes (identificativos, facturación). El proyecto debe asegurar que los sistemas de Alta Disponibilidad y Backup contemplan la privacidad desde el diseño y la seguridad por defecto.
 
-- Esquema Nacional de Seguridad (ENS) (Real Decreto 311/2022):
-  - Relevancia: Si TWS trabaja (o aspira a trabajar) con la Administración Pública o maneja información clasificada como de seguridad media/alta, debe cumplir con los requisitos del ENS.
+- **Esquema Nacional de Seguridad** (ENS) (Real Decreto 311/2022):
+  - *Relevancia*: Si TWS trabaja (o aspira a trabajar) con la Administración Pública o maneja información clasificada como de seguridad media/alta, debe cumplir con los requisitos del ENS.
 
-- Ley de Propiedad Intelectual (LPI):
-  - Relevancia: El software desarrollado por TWS es su activo principal.
+- **Ley de Propiedad Intelectual** (LPI):
+  - *Relevancia*: El software desarrollado por TWS es su activo principal.
  
 ---
 
