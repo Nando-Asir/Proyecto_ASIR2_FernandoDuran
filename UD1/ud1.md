@@ -36,6 +36,20 @@ Al estar estudiando ASIR, voy a centrarme en las empresas que más administrador
 
 - **Teamwork Solutions**: Es una empresa de tecnología y consultoría con una fuerte presencia local, enfocada en la provisión de soluciones tecnológicas dinámicas e integradas para la gestión empresarial. Ésta será la empresa donde haré las prácticas de segundo año de ASIR. 
 
+---
+
+### [2. Selección de la empresa](#índice-de-apartados)
+
+#### Empresa seleccionada -> Teamwork Solutions (TWS).
+
+Es una empresa de Consultoría y Soluciones Tecnológicas ubicada en el Polígono PISA de Mairena del Aljarafe (Sevilla), por su alta dependencia de la estabilidad, seguridad y eficiencia de sus sistemas de gestión (ERP).
+
+TWS se enfoca en el desarrollo y soporte de software de gestión integral para empresas, abarcando áreas sensibles como la facturación, contabilidad y recursos humanos. Por lo tanto, TWS no solo opera en el sector de Información y Comunicaciones, que concentra el mayor volumen de contratación para Técnicos TIC a nivel nacional, sino que además maneja datos críticos, lo que exige los más altos estándares de sistemas, además de cumplir con las normativas y leyes necesarias como la Protección de Datos (RGPD y LOPDGDD) o la ENS (Esquema Nacional de Seguridad).
+
+---
+
+### [3. Identificación de necesidades tecnológicas](#índice-de-apartados)
+
 
 
 ---
