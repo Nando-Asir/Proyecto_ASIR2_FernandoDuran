@@ -83,7 +83,7 @@ Si implementásemos dicha solución, incluso se podría monitorizar todo el rend
 
 ### [5. Obligaciones legales y normativas](#índice-de-apartados)
 ![RGPD](https://img.shields.io/badge/RGPD-Ley-0055A4?style=flat&logo=gdpr&logoColor=white)
-![ENS](https://img.shields.io/badge/ENS-Real-Drecreto-C60B1E?style=flat&logo=shield&logoColor=white)
+![ENS](https://img.shields.io/badge/ENS-RealDecreto-C60B1E?style=flat&logo=shield&logoColor=white)
 ![LPI](https://img.shields.io/badge/LPI-Ley-green?style=flat&logo=security&logoColor=white)
 
 Al trabajar con sistemas de gestión que manejan datos sensibles, es imprescindible considerar el marco legal que rige en España y la Unión Europea.
