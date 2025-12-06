@@ -5,8 +5,8 @@
 ## Índice de apartados
 
 - [ ] **[1. Análisis del sector tecnológico](#1-análisis-del-sector-tecnológico)**
-- [ ] **2. Selección de la empresa o contexto de trabajo**
-- [ ] **3. Identificación de necesidades tecnológicas**
+- [ ] **[2. Selección de la empresa o contexto de trabajo](#2-selección-de-la-empresa)**
+- [ ] **[3. Identificación de necesidades tecnológicas](#3-)**
 - [ ] **4. Oportunidades y viabilidad del proyecto**
 - [ ] **5. Obligaciones legales y normativas**
 - [ ] **6. Guion inicial del proyecto**
@@ -50,7 +50,40 @@ TWS se enfoca en el desarrollo y soporte de software de gestión integral para e
 
 ### [3. Identificación de necesidades tecnológicas](#índice-de-apartados)
 
+Según lo que me han comentado compañeros que estuvieron alli el año pasado haciendo las prácticas, lo que la empresa necesitó en su momento, que no sé si lo habrán resuelto, es la automatización del proceso para lanzar el software suyo propio, que lo tienen que ir haciendo a mano.
 
+Gracias a mi formación en ASIR, creo que es uno de mis puntos fuertes, y que se puede lograr automatizar ese proceso con un script que lance su software y que además dé el nombre de usuario y contraseña a la empresa en cuestión, enlazando el software con la base de datos de Teamwork Solutions. Además, me comentaron que lo estaban haciendo en PowerShell, es decir, para Windows. Creo que estaría bien tener el mismo script enfocado a Linux por lo que pueda pasar. 
+
+Incluso otra manera de automatizarlo todo y acelerar el despliegue del software, puede ser utilizando Docker. Con ello lograría un rápido despliegue además de una portabilidad mucho mayor que tener que estar instalando y descargando en los equipos de manera manual.
+
+---
+
+### [4. Oportunidades y viabilidad del proyecto](#índice-de-apartados)
+
+Teniendo en cuenta de las necesidades de la empresa, la viabilidad es bastante alta, ya que lo novedoso o necesario no requiere una inversión monetaria, si no que todo se puede realizar con softwares de código abierto y totalmente gratuitos, como es Docker. Lo necesario sería tener contratado a alguien que tengas dichos conocimientos, pero al fin y al cabo, es un trabajador más de la empresa, por lo que, teniendo una visión a corto, medio y largo plazo, le saldría rentable para la empresa.
+
+Si implementásemos dicha solución, incluso se podría monitorizar todo el rendimiento en tiempo real, con Grafana y Prometheus, que siguen siendo de código abierto y gratis de usar.
+
+---
+
+### [5. Obligaciones legales y normativas](#índice-de-apartados)
+
+Al trabajar con sistemas de gestión que manejan datos sensibles, es imprescindible considerar el marco legal que rige en España y la Unión Europea.
+
+Normativa de Cumplimiento Crítico:
+
+- Reglamento General de Protección de Datos (RGPD / GDPR):
+  - Relevancia: TWS maneja datos de clientes (identificativos, facturación). El proyecto debe asegurar que los sistemas de Alta Disponibilidad y Backup contemplan la privacidad desde el diseño y la seguridad por defecto.
+
+- Esquema Nacional de Seguridad (ENS) (Real Decreto 311/2022):
+  - Relevancia: Si TWS trabaja (o aspira a trabajar) con la Administración Pública o maneja información clasificada como de seguridad media/alta, debe cumplir con los requisitos del ENS.
+
+- Ley de Propiedad Intelectual (LPI):
+  - Relevancia: El software desarrollado por TWS es su activo principal.
+ 
+---
+
+### [6. Guión inicial del proyecto](#índice-de-apartados)
 
 ---
 
