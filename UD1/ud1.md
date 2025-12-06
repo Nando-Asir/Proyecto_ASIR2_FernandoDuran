@@ -93,7 +93,9 @@ Normativa de Cumplimiento Crítico:
 - [Diagramas e imágenes](./img/)
 
   ## Bibliografía / Webgrafía 
-- Autor1, Título del libro o artículo, Editorial/Año.
-- Sitio web oficial: [Enlace](https://www.ejemplo.com)
-- Tutoriales y guías recomendadas: [Enlace](https://www.ejemplo2.com)
+- Página del Polígono Industrial PISA
+  - 🔗 [PISA](https://parquepisa.org/)
+
+- Página web de Comercio Local Digital en Mairena del Aljarafe
+  - 🔗 [Info de Mairena](https://www.mairena.info/blog/comercio-local-digital-en-mairena)
 
