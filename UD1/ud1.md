@@ -93,17 +93,17 @@ Normativa de Cumplimiento Crítico:
 - [Diagramas e imágenes](./img/)
 
   ## Bibliografía / Webgrafía 
-- Página del Polígono Industrial PISA
+- Página del Polígono Industrial PISA \
   🔗 [PISA](https://parquepisa.org/)
 
-- Página web de Comercio Local Digital en Mairena del Aljarafe
+- Página web de Comercio Local Digital en Mairena del Aljarafe \
   🔗 [Info de Mairena](https://www.mairena.info/blog/comercio-local-digital-en-mairena)
 
-- Página web de información sobre Servinform
+- Página web de información sobre Servinform \
   🔗 [Servinform](https://www.servinform.es/quienes-somos/nosotros/)
 
-- Página web de información sobre Avanza Sistemas
+- Página web de información sobre Avanza Sistemas \
   🔗 [Avanza Sistemas]([https://parquepisa.org/](https://www.avanzasistemas.es/))
 
-- Páweb de información sobre Teamwork Solutions
+- Páweb de información sobre Teamwork Solutions \
   🔗 [TWS](https://teamwsolutions.net/)
