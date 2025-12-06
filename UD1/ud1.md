@@ -109,4 +109,5 @@ Normativa de Cumplimiento Crítico:
   🔗 [Avanza Sistemas](https://www.avanzasistemas.es/)
 
 - Páweb de información sobre Teamwork Solutions \
-  🔗 [TWS](https://teamwsolutions.net/)
+  🔗 [TWS](https://teamwsolutions.net/) \
+  🔗 [Aviso Legal](https://teamwsolutions.net/aviso-legal/)
