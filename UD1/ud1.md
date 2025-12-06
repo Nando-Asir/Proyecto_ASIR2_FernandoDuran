@@ -131,3 +131,6 @@ Normativa de Cumplimiento Crítico:
 - Página web de información sobre Teamwork Solutions \
   🔗 [TWS](https://teamwsolutions.net/) \
   🔗 [Aviso Legal](https://teamwsolutions.net/aviso-legal/)
+
+- Informe del Diario de Sevilla sobre el PISA
+  🔗 [Infraestructura del PISA](https://www.ceacop.com/sevilla-los-10-000-trabajadores-del-pisa-quedan-conectados-con-el-metro-cuatro-anos-despues/?print=print)
