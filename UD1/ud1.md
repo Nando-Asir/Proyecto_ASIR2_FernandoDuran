@@ -40,7 +40,7 @@ Al estar estudiando ASIR, voy a centrarme en las empresas que más administrador
 
 ### [2. Selección de la empresa](#índice-de-apartados)
 
-#### Empresa seleccionada -> Teamwork Solutions (TWS).
+### Empresa seleccionada -> Teamwork Solutions (TWS).
 
 Es una empresa de Consultoría y Soluciones Tecnológicas ubicada en el Polígono PISA de Mairena del Aljarafe (Sevilla), por su alta dependencia de la estabilidad, seguridad y eficiencia de sus sistemas de gestión (ERP).
 
