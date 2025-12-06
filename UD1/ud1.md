@@ -16,6 +16,9 @@
 ## Apartados
 
 ### [1. Análisis del sector tecnológico](#índice-de-apartados)
+
+<p align="center"><img src="/UD1/img/pisa.jog" alt="pisa" width="850" height="400"></p>
+
 Voy a centrar mi análisis en Mairena del Aljarafe, ya que he vivido toda mi vida allí, así que hablaré del *Parque Industrial de Servicios del Aljarafe (PISA)*, un centro empresarial estratégico que alberga una gran concentración de compañías de servicios, ingeniería y consultoría que requieren una infraestructura informática avanzada y segura...pero antes, hablemos un poco de España profundizando en STEM.
 
 El informe del SEPE establece que las ocupaciones STEM (Ciencia, Tecnología, Ingeniería y Matemáticas) son el motor del crecimiento económico y la digitalización en España. En este informe observamos que:
