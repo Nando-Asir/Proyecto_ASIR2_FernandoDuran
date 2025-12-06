@@ -105,46 +105,52 @@ Normativa de Cumplimiento Crítico:
 
 ### [6. Guión inicial del proyecto](#índice-de-apartados)
 
-- **Consistencia y Portabilidad**
-  1. *Host / Entorno*
-    - Configurar la máquina host (Linux/WServer) con Docker Engine y Docker Compose.
-  
-  2. *Empaquetado*
-    - Desarrollar los `Dockerfiles` para contenerizar la aplicación Gestión 360 y su Base de Datos.
 
-  3. *Orquestación*
-    - Crear el archivo `docker-compose.yml` para definir y levantar la arquitectura de servicios completa.
+## Consistencia y Portabilidad
 
-  4. *Despliegue*
-    - Escribir un script en Python para automatizar el despliegue inicial del entorno.
+### 1. Host / Entorno
+Configurar la máquina host (Linux/WServer) con Docker Engine y Docker Compose.
 
+### 2. Empaquetado
+Desarrollar los `Dockerfiles` para contenerizar la aplicación Gestión 360 y su Base de Datos.
 
-- **Seguridad y Continuidad**
-  1. *Red Segura*
-    - Aislar la red interna de contenedores y configurar reglas de firewall para limitar el tráfico.
+### 3. Orquestación
+Crear el archivo `docker-compose.yml` para definir y levantar la arquitectura de servicios completa.
 
-  2. *Continuidad*
-    - Configurar un sistema de Alta Disponibilidad (HA) / Failover para asegurar la conmutación automática del servicio ante un fallo.
+### 4. Despliegue
+Escribir un script en Python para automatizar el despliegue inicial del entorno.
 
-  3. *Protección de Datos*
-    - Automatizar las Copias de Seguridad (cifradas) de la Base de Datos (Oracle/PostgreSQL).
+---
 
-  4. *Recuperación*
-    - Documentar el Plan de Recuperación ante Desastres (DRP) con los pasos detallados para la restauración completa.
+## Seguridad y Continuidad
 
+### 1. Red Segura
+Aislar la red interna de contenedores y configurar reglas de firewall para limitar el tráfico.
 
-- **Eficiencia y Monitorización**
-  1. *Recolección*
-    - Instalar y configurar Prometheus para la recolección de métricas de rendimiento y salud del sistema.
+### 2. Continuidad
+Configurar un sistema de Alta Disponibilidad (HA) / Failover para asegurar la conmutación automática del servicio ante un fallo.
 
-  2. *Visualización*
-    - Integrar Grafana y diseñar un Dashboard para visualizar las métricas y el estado del servicio Gestión 360 en tiempo real.
+### 3. Protección de Datos
+Automatizar las Copias de Seguridad (cifradas) de la Base de Datos (Oracle/PostgreSQL).
 
-  3. *Mantenimiento*
-    - Desarrollar scripts Python para la automatización de tareas de mantenimiento periódico (log rotation, health checks).
+### 4. Recuperación
+Documentar el Plan de Recuperación ante Desastres (DRP) con los pasos detallados para la restauración completa.
 
-  4. *Documentación*
-    - Subir todos los archivos de configuración, código fuente (scripts) y el DRP al repositorio de GitHub.
+---
+
+## Eficiencia y Monitorización
+
+### 1. Recolección
+Instalar y configurar Prometheus para la recolección de métricas de rendimiento y salud del sistema.
+
+### 2. Visualización
+Integrar Grafana y diseñar un Dashboard para visualizar las métricas y el estado del servicio Gestión 360 en tiempo real.
+
+### 3. Mantenimiento
+Desarrollar scripts Python para la automatización de tareas de mantenimiento periódico (log rotation, health checks).
+
+### 4. Documentación
+Subir todos los archivos de configuración, código fuente (scripts) y el DRP al repositorio de GitHub.
 
 ---
 
