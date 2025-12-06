@@ -106,7 +106,7 @@ Normativa de Cumplimiento Crítico:
 ### [6. Guión inicial del proyecto](#índice-de-apartados)
 
 
-1. **Consistencia y Portabilidad**
+- **Consistencia y Portabilidad**
   - Host / Entorno \
     Configurar la máquina host (Linux/WServer) con Docker Engine y Docker Compose.
 
@@ -120,7 +120,7 @@ Normativa de Cumplimiento Crítico:
     Escribir un script en Python para automatizar el despliegue inicial del entorno.
 
 
-2. **Seguridad y Continuidad**
+- **Seguridad y Continuidad**
   - Red Segura \
     Aislar la red interna de contenedores y configurar reglas de firewall para limitar el tráfico.
 
@@ -134,7 +134,7 @@ Normativa de Cumplimiento Crítico:
     Documentar el Plan de Recuperación ante Desastres (DRP) con los pasos detallados para la restauración completa.
 
 
-3. **Eficiencia y Monitorización**
+- **Eficiencia y Monitorización**
   - Recolección \
     Instalar y configurar Prometheus para la recolección de métricas de rendimiento y salud del sistema.
 
