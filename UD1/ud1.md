@@ -75,7 +75,7 @@ Incluso otra manera de automatizarlo todo y acelerar el despliegue del software,
 
 ### [4. Oportunidades y viabilidad del proyecto](#índice-de-apartados)
 
-<p align="center"><img src="/UD1/img/openSource.jpg" alt="openS" width="850" height="400"></p>
+<p align="center"><img src="/UD1/img/openSource.jpg" alt="openS" width="650" height="300"></p>
 
 Teniendo en cuenta de las necesidades de la empresa, la viabilidad es bastante alta, ya que lo novedoso o necesario no requiere una inversión monetaria, si no que todo se puede realizar con softwares de código abierto y totalmente gratuitos, como es Docker. Lo necesario sería tener contratado a alguien que tengas dichos conocimientos, pero al fin y al cabo, es un trabajador más de la empresa, por lo que, teniendo una visión a corto, medio y largo plazo, le saldría rentable para la empresa.
 
