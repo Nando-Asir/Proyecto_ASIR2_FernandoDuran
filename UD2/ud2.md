@@ -9,6 +9,38 @@
 - [ ] **4. Recursos y presupuesto**
 - [ ] **5. Documentación técnica**
 
+## Apartados
+
+### [1. Recopilación de información técnica](#índice-de-apartados)
+
+
+
+---
+
+### [2. Diseño lógico y físico de la infraestructura](#índice-de-apartados)
+
+
+
+---
+
+### [3. Definición de objetivos y fases del proyecto](#índice-de-apartados)
+
+
+
+---
+
+### [4. Recursos y presupuesto](#índice-de-apartados)
+
+
+
+---
+
+### [5. Documentación tñecnica](#índice-de-apartados)
+
+
+
+---
+
 ## Enlaces a recursos de la unidad
 
 - [Documentos de la unidad](./documentos/)
