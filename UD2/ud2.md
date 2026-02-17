@@ -14,7 +14,12 @@
 
 ### [1. Recopilación de información técnica](#índice-de-apartados)
 
+La infraestructura se basa en una arquitectura de red segmentada para garantizar la seguridad y el rendimiento.
 
+- Sistemas Operativos: Linux (Servidor principal) y Windows (Active Directory).
+- Base de Datos: AWS RDS (Instancia gestionada de SQL).
+- Virtualización/Contenerización: Docker para servicios de monitoreo.
+- Segmentación IP: Uso de tres subredes distintas para aislar tráfico de gestión, servicios y datos.
 
 ---
 
