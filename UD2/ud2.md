@@ -41,10 +41,10 @@ El diseño sigue un **modelo de defensa** en profundidad:
 
 ### [3. Definición de objetivos y fases del proyecto](#índice-de-apartados)
 
-1. **Fase 1: Networking**: Configuración de interfaces de red y reglas de enrutamiento entre las tres subredes.
-2. **Fase 2: Servicios Core**: Despliegue del controlador de dominio (AD) y configuración del servidor Linux.
-3. **Fase 3: Contenerización**: Implementación de la pila de monitoreo en Docker.
-4. **Fase 4: Integración Cloud**: Configuración de conectividad y seguridad (Security Groups) con AWS.
+1. **Fase 1 Networking**: Configuración de interfaces de red y reglas de enrutamiento entre las tres subredes.
+2. **Fase 2 Servicios Core**: Despliegue del controlador de dominio (AD) y configuración del servidor Linux.
+3. **Fase 3 Contenerización**: Implementación de la pila de monitoreo en Docker.
+4. **Fase 4 Integración Cloud**: Configuración de conectividad y seguridad (Security Groups) con AWS.
 
 ---
 
