@@ -36,7 +36,7 @@
 
 ---
 
-### [5. Documentación tñecnica](#índice-de-apartados)
+### [5. Documentación técnica](#índice-de-apartados)
 
 
 
