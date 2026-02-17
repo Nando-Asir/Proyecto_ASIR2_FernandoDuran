@@ -25,13 +25,21 @@ La infraestructura se basa en una arquitectura de red segmentada para garantizar
 
 ### [2. Diseño lógico y físico de la infraestructura](#índice-de-apartados)
 
+El diseño sigue un **modelo de defensa** en profundidad:
 
+- **RED 0 (DMZ - 172.15.0.0)**: Zona desmilitarizada que actúa como frontera. Aquí se sitúa el servidor Linux que gestiona las peticiones externas antes de conectar con el backend.
+- **RED 1 (Active Directory - 172.10.1.0)**: Red interna dedicada a la gestión de identidades y políticas de grupo mediante Windows Server.
+- **RED 2 (Monitoreo - 192.168.50.0)**: Red aislada para el despliegue de contenedores (Docker) encargados del análisis de logs y métricas del sistema.
+- **Conectividad Cloud**: El servidor Linux establece una conexión segura con AWS BBDD para la persistencia de datos.
 
 ---
 
 ### [3. Definición de objetivos y fases del proyecto](#índice-de-apartados)
 
-
+1. **Fase 1: Networking**: Configuración de interfaces de red y reglas de enrutamiento entre las tres subredes.
+2. **Fase 2: Servicios Core**: Despliegue del controlador de dominio (AD) y configuración del servidor Linux.
+3. **Fase 3: Contenerización**: Implementación de la pila de monitoreo en Docker.
+4. **Fase 4: Integración Cloud**: Configuración de conectividad y seguridad (Security Groups) con AWS.
 
 ---
 
