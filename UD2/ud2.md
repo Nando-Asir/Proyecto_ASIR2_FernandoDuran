@@ -7,7 +7,7 @@
 - [ ] **[1. Recopilación de información técnica](#1-recopilación-de-información-técnica)**
 - [ ] **[2. Diseño lógico y físico de la infraestructura](#2-diseño-lógico-y-físico-de-la-infraestructura)**
 - [ ] **[3. Definición de objetivos y fases del proyecto](#3-definición-de-objetivos-y-fases-del-proyecto)**
-- [ ] **[4. Recursos y presupuesto](#4-recursos-y-presupuestp)**
+- [ ] **[4. Recursos y presupuesto](#4-recursos-y-presupuesto)**
 - [ ] **[5. Documentación técnica](#5-documentación-técnica)**
 
 ## Apartados
