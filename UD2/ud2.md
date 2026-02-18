@@ -183,5 +183,3 @@ El coste del proyecto es mínimo al basarse íntegramente en software de código
   🔗 [OPNsense](https://docs.opnsense.org)
 - WireGuard. *WireGuard – Fast, Modern, Secure VPN Tunnel*. WireGuard Project. \
   🔗 [WireGuard](https://www.wireguard.com)
-- Torvalds, L. *WireGuard merged into Linux Kernel 5.6*. The Linux Kernel Archives, 2020. \
-  🔗 [Linux con WireGuard](https://lkml.org/lkml/2020/1/28/510)
