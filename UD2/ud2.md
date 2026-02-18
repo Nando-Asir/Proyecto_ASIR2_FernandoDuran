@@ -39,6 +39,12 @@ La infraestructura se basa en una arquitectura de red segmentada en tres zonas d
 
 #### Stack de Monitorización
 
+Se ha optado por el stack **TICK** como alternativa al stack Prometheus + Grafana + Node Exporter utilizado en clase:
+
+- **Telegraf** actúa como agente de recopilación de métricas instalado directamente en cada servidor a monitorizar. Utiliza un sistema de plugins de entrada y salida, lo que permite recoger métricas de CPU, memoria, disco y red tanto en Linux como en Windows sin necesidad de exporters adicionales.
+- **InfluxDB 2.7** es la base de datos de series temporales donde Telegraf almacena las métricas recogidas. Está optimizada para escrituras y consultas sobre datos con marca temporal, lo que la hace especialmente adecuada para métricas de monitorización.
+- **Chronograf** es la interfaz web de visualización que se conecta a InfluxDB para mostrar dashboards y gestionar alertas.
+
 ```
 monitoring/
 ├── docker-compose.yml
@@ -48,12 +54,6 @@ monitoring/
     ├── telegraf-windows.conf
     └── telegraf-debian.conf
 ```
-
-Se ha optado por el stack **TICK** como alternativa al stack Prometheus + Grafana + Node Exporter utilizado en clase:
-
-- **Telegraf** actúa como agente de recopilación de métricas instalado directamente en cada servidor a monitorizar. Utiliza un sistema de plugins de entrada y salida, lo que permite recoger métricas de CPU, memoria, disco y red tanto en Linux como en Windows sin necesidad de exporters adicionales.
-- **InfluxDB 2.7** es la base de datos de series temporales donde Telegraf almacena las métricas recogidas. Está optimizada para escrituras y consultas sobre datos con marca temporal, lo que la hace especialmente adecuada para métricas de monitorización.
-- **Chronograf** es la interfaz web de visualización que se conecta a InfluxDB para mostrar dashboards y gestionar alertas.
 
 A diferencia de Prometheus, que usa un modelo **pull** (el servidor va a buscar las métricas a los exporters), el stack TICK usa un modelo **push** (los agentes Telegraf envían las métricas directamente a InfluxDB), lo que simplifica la configuración de red al no requerir que el servidor de monitorización tenga acceso directo a cada host.
 
