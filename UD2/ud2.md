@@ -80,7 +80,7 @@ El diseño sigue un **modelo de defensa** en profundidad:
 
 ### [3. Definición de objetivos y fases del proyecto](#índice-de-apartados)
 
-#### Fase 1 – Networking
+#### 1. Fase 1 – Networking
 Configuración de la infraestructura de red base sobre la que se sustenta todo el proyecto:
 
 - Instalación y configuración de **OPNsense** como firewall perimetral.
@@ -89,7 +89,7 @@ Configuración de la infraestructura de red base sobre la que se sustenta todo e
 - Configuración de **WireGuard** para acceso VPN remoto a la infraestructura.
 - Verificación de conectividad entre las tres redes.
 
-#### Fase 2 – Servicios Core
+#### 2. Fase 2 – Servicios Core
 Despliegue y configuración de los servicios principales de la infraestructura:
 
 - Instalación de **Debian 13** en Srv-Linux-Main y configuración como gateway y proxy.
@@ -99,7 +99,7 @@ Despliegue y configuración de los servicios principales de la infraestructura:
 - Creación de unidades organizativas, usuarios y políticas de grupo (GPO).
 - Unión del servidor Linux al dominio.
 
-#### Fase 3 – Contenerización y Monitorización
+#### 3. Fase 3 – Contenerización y Monitorización
 Implementación del stack de monitorización mediante Docker:
 
 - Instalación de **Docker** y **Docker Compose** en Srv-Docker.
@@ -108,7 +108,7 @@ Implementación del stack de monitorización mediante Docker:
 - Verificación del envío de métricas desde ambos servidores a InfluxDB.
 - Creación de dashboards en Chronograf para visualización de métricas.
 
-#### Fase 4 – Integración Cloud
+#### 4. Fase 4 – Integración Cloud
 Configuración de la conectividad segura con AWS:
 
 - Creación de la instancia **AWS RDS** dentro del Free Tier.
