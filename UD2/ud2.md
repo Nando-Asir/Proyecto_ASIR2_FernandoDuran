@@ -50,13 +50,21 @@ El diseño sigue un **modelo de defensa** en profundidad:
 
 ### [4. Recursos y presupuesto](#índice-de-apartados)
 
-
+- **Hardware**: Ordenador con máquinas virtuales (aún por ver dónde las creo).
+- **Software**: OPNsense (firewall), WireGuard (VPN), Debian (servidor), Windows Server con AD (permisos y usuarios), Docker (monitorización con InfluxDB y Chronograf) y Telegraf (parecido a un exporter).
+- **Cloud**: Uso de AWS para un servicio posterior.
+- **Costo Estimado**: Mínimo (uso de software Open Source y capas gratuitas de Cloud).
 
 ---
 
 ### [5. Documentación técnica](#índice-de-apartados)
 
-
+- Tabla de Direccionamiento
+| Interfaz Red | Segmento IP | Máscara | Puerta de Enlace (GW) | Descripción
+| RED 0 (DMZ)| 172.15.0.0/24 | 255.255.255.0 | 172.15.0.1 | Zona perimetral y Servidor Linux
+| RED 1 (AD) | 172.10.1.0/24 | 255.255.255.0 | 172.10.1.1 | Gestión de Active Directory (Windows)
+| RED 2 (Monitor) | 192.168.50.0/24 | 255.255.255.0 | 192.168.50.1 | Servicios de Monitoreo y Docker
+| WAN,DHCP | Static | N/A | ISP Gateway | Salida a Internet y Conexión AWS
 
 ---
 
