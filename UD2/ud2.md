@@ -63,8 +63,7 @@ El diseño sigue un **modelo de defensa** en profundidad:
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Open Source](https://img.shields.io/badge/Open_Source-3DA639?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
-\
-- Hardware
+#### Hardware
 
 Toda la infraestructura se desplegará mediante máquinas virtuales sobre un equipo anfitrión local utilizando **VirtualBox** como hipervisor de tipo 2. Se asignarán los siguientes recursos por máquina virtual:
 
@@ -74,8 +73,7 @@ Toda la infraestructura se desplegará mediante máquinas virtuales sobre un equ
 | Srv-Win-AD (Windows Server) | 2 | 4 GB | 40 GB |
 | Srv-Docker (Linux + Docker) | 2 | 4 GB | 30 GB |
 
-\
-- Software
+#### Software
 
 | Herramienta | Función | Coste |
 |---|---|---|
@@ -89,16 +87,14 @@ Toda la infraestructura se desplegará mediante máquinas virtuales sobre un equ
 | Chronograf | Visualización de métricas | Gratuito (Open Source) |
 | Telegraf | Agente de recopilación de métricas | Gratuito (Open Source) |
 
-\
-- Cloud
+#### Cloud
 
 | Servicio AWS | Descripción | Coste estimado |
 |---|---|---|
 | AWS RDS (Free Tier) | Base de datos gestionada SQL | Gratuito (750h/mes primer año) |
 | AWS Security Groups | Control de acceso a la instancia RDS | Incluido |
 
-\
-- Coste total estimado
+#### Coste total estimado
 
 | Concepto | Coste |
 |---|---|
