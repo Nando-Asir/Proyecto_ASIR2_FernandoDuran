@@ -73,6 +73,7 @@ Toda la infraestructura se desplegará mediante máquinas virtuales sobre un equ
 | Srv-Win-AD (Windows Server) | 2 | 4 GB | 40 GB |
 | Srv-Docker (Linux + Docker) | 2 | 4 GB | 30 GB |
 
+
 - Software
 
 | Herramienta | Función | Coste |
@@ -87,12 +88,14 @@ Toda la infraestructura se desplegará mediante máquinas virtuales sobre un equ
 | Chronograf | Visualización de métricas | Gratuito (Open Source) |
 | Telegraf | Agente de recopilación de métricas | Gratuito (Open Source) |
 
+
 - Cloud
 
 | Servicio AWS | Descripción | Coste estimado |
 |---|---|---|
 | AWS RDS (Free Tier) | Base de datos gestionada SQL | Gratuito (750h/mes primer año) |
 | AWS Security Groups | Control de acceso a la instancia RDS | Incluido |
+
 
 - Coste total estimado
 
