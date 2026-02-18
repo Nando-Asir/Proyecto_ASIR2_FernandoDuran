@@ -162,6 +162,17 @@ El coste del proyecto es mínimo al basarse íntegramente en software de código
 - [Diagramas e imágenes](./img/)
 
 ## Bibliografía / Webgrafía
-- Autor1, Título del libro o artículo, Editorial/Año.
-- Sitio web oficial: [Enlace](https://www.ejemplo.com)
-- Tutoriales y guías recomendadas: [Enlace](https://www.ejemplo2.com)
+
+- Debian. *Debian 12 "Bookworm" Release Notes*. Debian Project, 2023. https://www.debian.org/releases/bookworm/releasenotes
+- Microsoft. *Windows Server 2022 – Ciclo de vida del producto*. Microsoft Learn, 2024. https://learn.microsoft.com/es-es/lifecycle/products/windows-server-2022
+- Microsoft. *Licencias de evaluación de Windows Server 2022*. Microsoft Evaluation Center. https://www.microsoft.com/es-es/evalcenter/evaluate-windows-server-2022
+- Amazon Web Services. *AWS RDS – Free Tier*. AWS Documentation, 2024. https://aws.amazon.com/es/rds/free
+- Oracle. *VirtualBox – About*. Oracle VM VirtualBox. https://www.virtualbox.org/wiki/VirtualBox
+- Docker Inc. *Docker Overview*. Docker Documentation, 2024. https://docs.docker.com/get-started/overview
+- InfluxData. *InfluxDB 2.7 Documentation*. InfluxData, 2024. https://docs.influxdata.com/influxdb/v2.7
+- InfluxData. *Telegraf Documentation – Agent configuration*. InfluxData, 2024. https://docs.influxdata.com/telegraf/v1
+- InfluxData. *Chronograf Documentation*. InfluxData, 2024. https://docs.influxdata.com/chronograf/v1
+- InfluxData. *Comparing push vs pull metrics collection*. InfluxData Blog. https://www.influxdata.com/blog/telegraf-push-pull-metrics
+- OPNsense. *OPNsense vs pfSense – Feature Comparison*. OPNsense Documentation. https://docs.opnsense.org
+- WireGuard. *WireGuard – Fast, Modern, Secure VPN Tunnel*. WireGuard Project. https://www.wireguard.com
+- Torvalds, L. *WireGuard merged into Linux Kernel 5.6*. The Linux Kernel Archives, 2020. https://lkml.org/lkml/2020/1/28/510
