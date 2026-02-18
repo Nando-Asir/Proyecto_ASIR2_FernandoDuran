@@ -39,6 +39,22 @@ El diseño sigue un **modelo de defensa** en profundidad:
 - **RED 2 (Monitoreo - 192.168.50.0)**: Red aislada para el despliegue de contenedores (Docker) encargados del análisis de logs y métricas del sistema.
 - **Conectividad Cloud**: El servidor Linux establece una conexión segura con AWS BBDD para la persistencia de datos.
 
+graph TD
+    Internet["🌐 Internet / AWS"] --> DMZ
+    subgraph DMZ ["RED 0 – DMZ 172.15.0.0/24"]
+        Linux["Srv-Linux-Main\n172.15.0.10\nGateway / Proxy"]
+    end
+    Linux --> AD
+    Linux --> Monitor
+    Linux --> AWS
+    subgraph AD ["RED 1 – Active Directory 172.10.1.0/24"]
+        WinAD["Srv-Win-AD\n172.10.1.10\nAD / DNS"]
+    end
+    subgraph Monitor ["RED 2 – Monitoreo 192.168.50.0/24"]
+        Docker["Srv-Docker\n192.168.50.10\nInfluxDB / Chronograf"]
+    end
+    AWS["AWS RDS\nEndpoint URL\nManaged SQL"]
+
 ---
 
 ### [3. Definición de objetivos y fases del proyecto](#índice-de-apartados)
