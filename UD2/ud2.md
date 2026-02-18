@@ -23,19 +23,19 @@ La infraestructura se basa en una arquitectura de red segmentada en tres zonas d
 
 #### Sistemas Operativos
 
-**Debian 12 (Bookworm)** se utiliza como sistema operativo del servidor principal por su estabilidad, amplio soporte de la comunidad y bajo consumo de recursos, características ideales para un servidor que actúa como gateway y proxy. Al ser una distribución LTS ampliamente usada en entornos empresariales, garantiza compatibilidad con todas las herramientas del proyecto.
+- **Debian 12 (Bookworm)** se utiliza como sistema operativo del servidor principal por su estabilidad, amplio soporte de la comunidad y bajo consumo de recursos, características ideales para un servidor que actúa como gateway y proxy. Al ser una distribución LTS ampliamente usada en entornos empresariales, garantiza compatibilidad con todas las herramientas del proyecto.
 
-**Windows Server 2022** se emplea para el rol de Active Directory y DNS. Se elige esta versión por ser la más reciente con soporte a largo plazo (LTSC), ofrece mejoras de seguridad respecto a versiones anteriores y es la versión estándar en entornos empresariales actuales. Se utilizará bajo licencia de evaluación de 180 días.
+- **Windows Server 2022** se emplea para el rol de Active Directory y DNS. Se elige esta versión por ser la más reciente con soporte a largo plazo (LTSC), ofrece mejoras de seguridad respecto a versiones anteriores y es la versión estándar en entornos empresariales actuales. Se utilizará bajo licencia de evaluación de 180 días.
 
 #### Base de Datos
 
-**AWS RDS (MySQL/PostgreSQL)** como servicio gestionado de base de datos en la nube. Se elige RDS frente a una base de datos local por delegar la gestión del mantenimiento, backups y alta disponibilidad en AWS, permitiendo centrarse en la arquitectura de la infraestructura. Se utilizará dentro de la capa gratuita (Free Tier).
+- **AWS RDS (MySQL/PostgreSQL)** como servicio gestionado de base de datos en la nube. Se elige RDS frente a una base de datos local por delegar la gestión del mantenimiento, backups y alta disponibilidad en AWS, permitiendo centrarse en la arquitectura de la infraestructura. Se utilizará dentro de la capa gratuita (Free Tier).
 
 #### Virtualización y Contenerización
 
-**VirtualBox** como hipervisor de tipo 2 para el despliegue de las máquinas virtuales en un entorno local. Se elige por ser gratuito, multiplataforma y suficiente para un entorno de laboratorio.
+- **VirtualBox** como hipervisor de tipo 2 para el despliegue de las máquinas virtuales en un entorno local. Se elige por ser gratuito, multiplataforma y suficiente para un entorno de laboratorio.
 
-**Docker** junto con **Docker Compose** para la contenerización del stack de monitorización. El uso de contenedores permite aislar los servicios de monitorización, facilitar su despliegue reproducible y simplificar futuras actualizaciones sin afectar al sistema anfitrión.
+- **Docker** junto con **Docker Compose** para la contenerización del stack de monitorización. El uso de contenedores permite aislar los servicios de monitorización, facilitar su despliegue reproducible y simplificar futuras actualizaciones sin afectar al sistema anfitrión.
 
 #### Stack de Monitorización
 
@@ -49,9 +49,9 @@ A diferencia de Prometheus, que usa un modelo **pull** (el servidor va a buscar 
 
 #### Seguridad y Red
 
-**OPNsense** como firewall perimetral para gestionar el tráfico entre las tres subredes y hacia Internet. Se elige frente a otras alternativas como pfSense por su interfaz más moderna, actualizaciones más frecuentes y mejor soporte de plugins.
+- **OPNsense** como firewall perimetral para gestionar el tráfico entre las tres subredes y hacia Internet. Se elige frente a otras alternativas como pfSense por su interfaz más moderna, actualizaciones más frecuentes y mejor soporte de plugins.
 
-**WireGuard** como solución VPN para el acceso remoto seguro a la infraestructura. Se elige por su simplicidad de configuración, alto rendimiento y por estar integrado en el kernel de Linux desde la versión 5.6.
+- **WireGuard** como solución VPN para el acceso remoto seguro a la infraestructura. Se elige por su simplicidad de configuración, alto rendimiento y por estar integrado en el kernel de Linux desde la versión 5.6.
 
 ---
 
