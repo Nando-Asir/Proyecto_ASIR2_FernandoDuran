@@ -179,8 +179,6 @@ El coste del proyecto es mínimo al basarse íntegramente en software de código
   🔗 [Telegraf](https://docs.influxdata.com/telegraf/v1)
 - InfluxData. *Chronograf Documentation*. InfluxData, 2024. \
   🔗 [Chronograf](https://docs.influxdata.com/chronograf/v1)
-- InfluxData. *Comparing push vs pull metrics collection*. InfluxData Blog. \
-  🔗 [Push vs Pull](https://www.influxdata.com/blog/telegraf-push-pull-metrics)
 - OPNsense. *OPNsense vs pfSense – Feature Comparison*. OPNsense Documentation. \
   🔗 [OPNsense](https://docs.opnsense.org)
 - WireGuard. *WireGuard – Fast, Modern, Secure VPN Tunnel*. WireGuard Project. \
