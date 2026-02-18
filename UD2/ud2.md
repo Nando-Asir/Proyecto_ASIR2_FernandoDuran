@@ -23,7 +23,7 @@ La infraestructura se basa en una arquitectura de red segmentada en tres zonas d
 
 #### Sistemas Operativos
 
-- **Debian 12 (Bookworm)** se utiliza como sistema operativo del servidor principal por su estabilidad, amplio soporte de la comunidad y bajo consumo de recursos, características ideales para un servidor que actúa como gateway y proxy. Al ser una distribución LTS ampliamente usada en entornos empresariales, garantiza compatibilidad con todas las herramientas del proyecto.
+- **Debian 13 (Trixie)** se utiliza como sistema operativo del servidor principal por su estabilidad, amplio soporte de la comunidad y bajo consumo de recursos, características ideales para un servidor que actúa como gateway y proxy. Al ser una distribución LTS ampliamente usada en entornos empresariales, garantiza compatibilidad con todas las herramientas del proyecto.
 
 - **Windows Server 2022** se emplea para el rol de Active Directory y DNS. Se elige esta versión por ser la más reciente con soporte a largo plazo (LTSC), ofrece mejoras de seguridad respecto a versiones anteriores y es la versión estándar en entornos empresariales actuales. Se utilizará bajo licencia de evaluación de 180 días.
 
