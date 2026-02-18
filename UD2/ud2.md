@@ -49,6 +49,17 @@ El diseño sigue un **modelo de defensa** en profundidad:
 ---
 
 ### [4. Recursos y presupuesto](#índice-de-apartados)
+![OPNsense](https://img.shields.io/badge/OPNsense-D94F00?style=for-the-badge&logo=opnsense&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white)
+![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active_Directory-0078D6?style=for-the-badge&logo=microsoft&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)
+![Chronograf](https://img.shields.io/badge/Chronograf-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)
+![Telegraf](https://img.shields.io/badge/Telegraf-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open_Source-3DA639?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
 - **Hardware**: Ordenador con máquinas virtuales (aún por ver dónde las creo).
 - **Software**: OPNsense (firewall), WireGuard (VPN), Debian (servidor), Windows Server con AD (permisos y usuarios), Docker (monitorización con InfluxDB y Chronograf) y Telegraf (parecido a un exporter).
