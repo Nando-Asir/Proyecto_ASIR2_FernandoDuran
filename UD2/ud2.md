@@ -30,7 +30,7 @@ La infraestructura se basa en una arquitectura de red segmentada para garantizar
 
 ### [2. Diseño lógico y físico de la infraestructura](#índice-de-apartados)
 
-<p align="center"><img src="/UD2/img/proyectoOscuto.png" alt="mapa" width="850" height="400"></p>
+<p align="center"><img src="/UD2/img/proyectoOscuro.png" alt="mapa" width="850" height="400"></p>
 
 El diseño sigue un **modelo de defensa** en profundidad:
 
