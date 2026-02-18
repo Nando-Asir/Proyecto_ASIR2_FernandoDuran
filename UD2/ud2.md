@@ -163,7 +163,7 @@ El coste del proyecto es mínimo al basarse íntegramente en software de código
 
 ## Bibliografía / Webgrafía
 
-- Debian. *Debian 12 "Bookworm" Release Notes*. Debian Project, 2023. https://www.debian.org/releases/bookworm/releasenotes
+- Debian. *Debian 13 "Trixie" Release Notes*. https://www.debian.org/releases/trixie/release-notes.es.pdf
 - Microsoft. *Windows Server 2022 – Ciclo de vida del producto*. Microsoft Learn, 2024. https://learn.microsoft.com/es-es/lifecycle/products/windows-server-2022
 - Microsoft. *Licencias de evaluación de Windows Server 2022*. Microsoft Evaluation Center. https://www.microsoft.com/es-es/evalcenter/evaluate-windows-server-2022
 - Amazon Web Services. *AWS RDS – Free Tier*. AWS Documentation, 2024. https://aws.amazon.com/es/rds/free
