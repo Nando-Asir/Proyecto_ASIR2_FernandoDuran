@@ -80,10 +80,41 @@ El diseño sigue un **modelo de defensa** en profundidad:
 
 ### [3. Definición de objetivos y fases del proyecto](#índice-de-apartados)
 
-1. **Fase 1 Networking**: Configuración de interfaces de red y reglas de enrutamiento entre las tres subredes.
-2. **Fase 2 Servicios Core**: Despliegue del controlador de dominio (AD) y configuración del servidor Linux.
-3. **Fase 3 Contenerización**: Implementación de la pila de monitoreo en Docker.
-4. **Fase 4 Integración Cloud**: Configuración de conectividad y seguridad (Security Groups) con AWS.
+#### Fase 1 – Networking
+Configuración de la infraestructura de red base sobre la que se sustenta todo el proyecto:
+
+- Instalación y configuración de **OPNsense** como firewall perimetral.
+- Creación de las tres interfaces de red: RED 0 (DMZ), RED 1 (AD) y RED 2 (Monitoreo).
+- Definición de reglas de enrutamiento y firewall entre subredes.
+- Configuración de **WireGuard** para acceso VPN remoto a la infraestructura.
+- Verificación de conectividad entre las tres redes.
+
+#### Fase 2 – Servicios Core
+Despliegue y configuración de los servicios principales de la infraestructura:
+
+- Instalación de **Debian 13** en Srv-Linux-Main y configuración como gateway y proxy.
+- Instalación de **Windows Server 2022** en Srv-Win-AD.
+- Promoción del servidor Windows a controlador de dominio (**Active Directory**).
+- Configuración del servicio **DNS** integrado en AD.
+- Creación de unidades organizativas, usuarios y políticas de grupo (GPO).
+- Unión del servidor Linux al dominio.
+
+#### Fase 3 – Contenerización y Monitorización
+Implementación del stack de monitorización mediante Docker:
+
+- Instalación de **Docker** y **Docker Compose** en Srv-Docker.
+- Despliegue del stack TICK mediante `docker-compose.yml` (**InfluxDB** + **Chronograf**).
+- Instalación y configuración del agente **Telegraf** en Srv-Linux-Main y Srv-Win-AD.
+- Verificación del envío de métricas desde ambos servidores a InfluxDB.
+- Creación de dashboards en Chronograf para visualización de métricas.
+
+#### Fase 4 – Integración Cloud
+Configuración de la conectividad segura con AWS:
+
+- Creación de la instancia **AWS RDS** dentro del Free Tier.
+- Configuración de **Security Groups** para restringir el acceso a la BBDD únicamente desde Srv-Linux-Main.
+- Configuración de la conexión entre Srv-Linux-Main y el endpoint de AWS RDS.
+- Verificación de conectividad y pruebas de acceso a la base de datos.
 
 ---
 
