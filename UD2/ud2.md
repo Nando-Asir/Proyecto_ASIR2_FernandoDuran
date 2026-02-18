@@ -59,7 +59,7 @@ El diseño sigue un **modelo de defensa** en profundidad:
 
 ### [5. Documentación técnica](#índice-de-apartados)
 
-- Tabla de Direccionamiento
+- Tabla de Direccionamiento \
 | Interfaz Red | Segmento IP | Máscara | Puerta de Enlace (GW) | Descripción |
 |---|---|---|---|---|
 | RED 0 (DMZ) | 172.15.0.0/24 | 255.255.255.0 | 172.15.0.1 | Zona perimetral y Servidor Linux |
