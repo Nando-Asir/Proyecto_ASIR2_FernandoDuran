@@ -171,8 +171,6 @@ El coste del proyecto es mínimo al basarse íntegramente en software de código
   🔗 [Licencias de Evaluación](https://www.microsoft.com/es-es/evalcenter/evaluate-windows-server-2022)
 - Amazon Web Services. *AWS RDS – Free Tier*. AWS Documentation, 2024. \
   🔗 [AWS RDS](https://aws.amazon.com/es/rds/free)
-- Oracle. *VirtualBox – About*. Oracle VM VirtualBox. \
-  🔗 [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox)
 - Docker Inc. *Docker Overview*. Docker Documentation, 2024. \
   🔗 [Docker](https://docs.docker.com/get-started/overview)
 - InfluxData. *InfluxDB 2.7 Documentation*. InfluxData, 2024. \
