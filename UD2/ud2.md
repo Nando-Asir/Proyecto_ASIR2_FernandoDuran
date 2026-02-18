@@ -19,12 +19,39 @@
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-La infraestructura se basa en una arquitectura de red segmentada para garantizar la **seguridad** y el **rendimiento**.
+La infraestructura se basa en una arquitectura de red segmentada en tres zonas diferenciadas para garantizar la seguridad, el aislamiento del tráfico y el rendimiento de los servicios.
 
-- **Sistemas Operativos**: Debian 13 (Servidor principal) y Windows Server (Active Directory).
-- **Base de Datos**: AWS RDS (Instancia gestionada de SQL).
-- **Virtualización/Contenerización**: Docker para servicios de monitoreo.
-- **Segmentación IP**: Uso de tres subredes distintas para aislar tráfico de gestión, servicios y datos.
+#### Sistemas Operativos
+
+**Debian 12 (Bookworm)** se utiliza como sistema operativo del servidor principal por su estabilidad, amplio soporte de la comunidad y bajo consumo de recursos, características ideales para un servidor que actúa como gateway y proxy. Al ser una distribución LTS ampliamente usada en entornos empresariales, garantiza compatibilidad con todas las herramientas del proyecto.
+
+**Windows Server 2022** se emplea para el rol de Active Directory y DNS. Se elige esta versión por ser la más reciente con soporte a largo plazo (LTSC), ofrece mejoras de seguridad respecto a versiones anteriores y es la versión estándar en entornos empresariales actuales. Se utilizará bajo licencia de evaluación de 180 días.
+
+#### Base de Datos
+
+**AWS RDS (MySQL/PostgreSQL)** como servicio gestionado de base de datos en la nube. Se elige RDS frente a una base de datos local por delegar la gestión del mantenimiento, backups y alta disponibilidad en AWS, permitiendo centrarse en la arquitectura de la infraestructura. Se utilizará dentro de la capa gratuita (Free Tier).
+
+#### Virtualización y Contenerización
+
+**VirtualBox** como hipervisor de tipo 2 para el despliegue de las máquinas virtuales en un entorno local. Se elige por ser gratuito, multiplataforma y suficiente para un entorno de laboratorio.
+
+**Docker** junto con **Docker Compose** para la contenerización del stack de monitorización. El uso de contenedores permite aislar los servicios de monitorización, facilitar su despliegue reproducible y simplificar futuras actualizaciones sin afectar al sistema anfitrión.
+
+#### Stack de Monitorización
+
+Se ha optado por el stack **TICK** como alternativa al stack Prometheus + Grafana + Node Exporter utilizado en clase:
+
+- **Telegraf** actúa como agente de recopilación de métricas instalado directamente en cada servidor a monitorizar. Utiliza un sistema de plugins de entrada y salida, lo que permite recoger métricas de CPU, memoria, disco y red tanto en Linux como en Windows sin necesidad de exporters adicionales.
+- **InfluxDB 2.7** es la base de datos de series temporales donde Telegraf almacena las métricas recogidas. Está optimizada para escrituras y consultas sobre datos con marca temporal, lo que la hace especialmente adecuada para métricas de monitorización.
+- **Chronograf** es la interfaz web de visualización que se conecta a InfluxDB para mostrar dashboards y gestionar alertas.
+
+A diferencia de Prometheus, que usa un modelo **pull** (el servidor va a buscar las métricas a los exporters), el stack TICK usa un modelo **push** (los agentes Telegraf envían las métricas directamente a InfluxDB), lo que simplifica la configuración de red al no requerir que el servidor de monitorización tenga acceso directo a cada host.
+
+#### Seguridad y Red
+
+**OPNsense** como firewall perimetral para gestionar el tráfico entre las tres subredes y hacia Internet. Se elige frente a otras alternativas como pfSense por su interfaz más moderna, actualizaciones más frecuentes y mejor soporte de plugins.
+
+**WireGuard** como solución VPN para el acceso remoto seguro a la infraestructura. Se elige por su simplicidad de configuración, alto rendimiento y por estar integrado en el kernel de Linux desde la versión 5.6.
 
 ---
 
@@ -122,8 +149,8 @@ El coste del proyecto es mínimo al basarse íntegramente en software de código
 
 | **Dispositivo** | **Dirección IP** | **Sistema Operativo** | **Servicio Principal** |
 |---|---|---|---|
-| **Srv-Linux-Main** | `172.15.0.10` | Ubuntu / Debian | Gateway / Proxy / AWS Bridge |
-| **Srv-Win-AD** | `172.10.1.10` | Windows Server | Active Directory / DNS / Usuarios |
+| **Srv-Linux-Main** | `172.15.0.10` | Debian 13 | Gateway / Proxy / AWS Bridge / Telegraf |
+| **Srv-Win-AD** | `172.10.1.10` | Windows Server | Active Directory / DNS / Usuarios / Telegraf |
 | **Srv-Docker** | `192.168.50.10` | Linux (Docker) | InfluxDB / Chronograf |
 | **AWS BBDD** | `Endpoint URL` | Managed SQL | Base de Datos Externa |
 
