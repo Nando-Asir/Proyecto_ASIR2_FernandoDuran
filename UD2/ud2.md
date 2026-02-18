@@ -39,6 +39,16 @@ La infraestructura se basa en una arquitectura de red segmentada en tres zonas d
 
 #### Stack de Monitorización
 
+```
+monitoring/
+├── docker-compose.yml
+├── influxdb/
+│   └── config.env
+└── telegraf/
+    ├── telegraf-windows.conf
+    └── telegraf-debian.conf
+```
+
 Se ha optado por el stack **TICK** como alternativa al stack Prometheus + Grafana + Node Exporter utilizado en clase:
 
 - **Telegraf** actúa como agente de recopilación de métricas instalado directamente en cada servidor a monitorizar. Utiliza un sistema de plugins de entrada y salida, lo que permite recoger métricas de CPU, memoria, disco y red tanto en Linux como en Windows sin necesidad de exporters adicionales.
@@ -65,16 +75,6 @@ El diseño sigue un **modelo de defensa** en profundidad:
 - **RED 1 (Active Directory - 172.10.1.0)**: Red interna dedicada a la gestión de identidades y políticas de grupo mediante Windows Server.
 - **RED 2 (Monitoreo - 192.168.50.0)**: Red aislada para el despliegue de contenedores (Docker) encargados del análisis de logs y métricas del sistema.
 - **Conectividad Cloud**: El servidor Linux establece una conexión segura con AWS BBDD para la persistencia de datos.
-
-```
-monitoring/
-├── docker-compose.yml
-├── influxdb/
-│   └── config.env
-└── telegraf/
-    ├── telegraf-windows.conf
-    └── telegraf-debian.conf
-```
 
 ---
 
