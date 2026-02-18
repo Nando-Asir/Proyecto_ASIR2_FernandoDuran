@@ -60,11 +60,12 @@ El diseño sigue un **modelo de defensa** en profundidad:
 ### [5. Documentación técnica](#índice-de-apartados)
 
 - Tabla de Direccionamiento
-| Interfaz Red | Segmento IP | Máscara | Puerta de Enlace (GW) | Descripción
-| RED 0 (DMZ)| 172.15.0.0/24 | 255.255.255.0 | 172.15.0.1 | Zona perimetral y Servidor Linux
-| RED 1 (AD) | 172.10.1.0/24 | 255.255.255.0 | 172.10.1.1 | Gestión de Active Directory (Windows)
-| RED 2 (Monitor) | 192.168.50.0/24 | 255.255.255.0 | 192.168.50.1 | Servicios de Monitoreo y Docker
-| WAN,DHCP | Static | N/A | ISP Gateway | Salida a Internet y Conexión AWS
+| Interfaz Red | Segmento IP | Máscara | Puerta de Enlace (GW) | Descripción |
+|---|---|---|---|---|
+| RED 0 (DMZ) | 172.15.0.0/24 | 255.255.255.0 | 172.15.0.1 | Zona perimetral y Servidor Linux |
+| RED 1 (AD) | 172.10.1.0/24 | 255.255.255.0 | 172.10.1.1 | Gestión de Active Directory (Windows) |
+| RED 2 (Monitor) | 192.168.50.0/24 | 255.255.255.0 | 192.168.50.1 | Servicios de Monitoreo y Docker |
+| WAN, DHCP | Static | N/A | ISP Gateway | Salida a Internet y Conexión AWS |
 
 ---
 
