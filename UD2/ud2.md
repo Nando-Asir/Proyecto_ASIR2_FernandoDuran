@@ -177,7 +177,7 @@ El coste del proyecto es mínimo al basarse íntegramente en software de código
 
 ### [5. Documentación técnica](#índice-de-apartados)
 
-- Tabla de Direccionamiento
+#### Tabla de Direccionamiento
 
 | Interfaz | Red | Segmento IP | Máscara | Puerta de Enlace (GW) | Descripción |
 |---|---|---|---|---|---|
@@ -186,7 +186,7 @@ El coste del proyecto es mínimo al basarse íntegramente en software de código
 | RED 2 (Monitor) | `192.168.50.0/24` | `192.168.50.0` | `255.255.255.0` | `192.168.50.1` | Servicios de Monitoreo y Docker |
 | WAN | DHCP / Static | N/A | N/A | N/A | Salida a Internet y Conexión AWS |
 
-- Tabla de Hosts
+#### Tabla de Hosts
 
 | **Dispositivo** | **Dirección IP** | **Sistema Operativo** | **Servicio Principal** |
 |---|---|---|---|
