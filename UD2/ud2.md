@@ -163,16 +163,29 @@ El coste del proyecto es mínimo al basarse íntegramente en software de código
 
 ## Bibliografía / Webgrafía
 
-- Debian. *Debian 13 "Trixie" Release Notes*. https://www.debian.org/releases/trixie/release-notes.es.pdf
-- Microsoft. *Windows Server 2022 – Ciclo de vida del producto*. Microsoft Learn, 2024. https://learn.microsoft.com/es-es/lifecycle/products/windows-server-2022
-- Microsoft. *Licencias de evaluación de Windows Server 2022*. Microsoft Evaluation Center. https://www.microsoft.com/es-es/evalcenter/evaluate-windows-server-2022
-- Amazon Web Services. *AWS RDS – Free Tier*. AWS Documentation, 2024. https://aws.amazon.com/es/rds/free
-- Oracle. *VirtualBox – About*. Oracle VM VirtualBox. https://www.virtualbox.org/wiki/VirtualBox
-- Docker Inc. *Docker Overview*. Docker Documentation, 2024. https://docs.docker.com/get-started/overview
-- InfluxData. *InfluxDB 2.7 Documentation*. InfluxData, 2024. https://docs.influxdata.com/influxdb/v2.7
-- InfluxData. *Telegraf Documentation – Agent configuration*. InfluxData, 2024. https://docs.influxdata.com/telegraf/v1
-- InfluxData. *Chronograf Documentation*. InfluxData, 2024. https://docs.influxdata.com/chronograf/v1
-- InfluxData. *Comparing push vs pull metrics collection*. InfluxData Blog. https://www.influxdata.com/blog/telegraf-push-pull-metrics
-- OPNsense. *OPNsense vs pfSense – Feature Comparison*. OPNsense Documentation. https://docs.opnsense.org
-- WireGuard. *WireGuard – Fast, Modern, Secure VPN Tunnel*. WireGuard Project. https://www.wireguard.com
-- Torvalds, L. *WireGuard merged into Linux Kernel 5.6*. The Linux Kernel Archives, 2020. https://lkml.org/lkml/2020/1/28/510
+- Debian. *Debian 13 "Trixie" Release Notes*. \
+  🔗 [Debian 13](https://www.debian.org/releases/trixie/release-notes.es.pdf)
+- Microsoft. *Windows Server 2022 – Ciclo de vida del producto*. Microsoft Learn, 2024. \
+  🔗 [Windows Server](https://learn.microsoft.com/es-es/lifecycle/products/windows-server-2022)
+- Microsoft. *Licencias de evaluación de Windows Server 2022*. Microsoft Evaluation Center. \
+  🔗 [Licencias de Evaluación](https://www.microsoft.com/es-es/evalcenter/evaluate-windows-server-2022)
+- Amazon Web Services. *AWS RDS – Free Tier*. AWS Documentation, 2024. \
+  🔗 [AWS RDS](https://aws.amazon.com/es/rds/free)
+- Oracle. *VirtualBox – About*. Oracle VM VirtualBox. \
+  🔗 [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox)
+- Docker Inc. *Docker Overview*. Docker Documentation, 2024. \
+  🔗 [Docker](https://docs.docker.com/get-started/overview)
+- InfluxData. *InfluxDB 2.7 Documentation*. InfluxData, 2024. \
+  🔗 [InfluxDB](https://docs.influxdata.com/influxdb/v2.7)
+- InfluxData. *Telegraf Documentation – Agent configuration*. InfluxData, 2024. \
+  🔗 [Telegraf](https://docs.influxdata.com/telegraf/v1)
+- InfluxData. *Chronograf Documentation*. InfluxData, 2024. \
+  🔗 [Chronograf](https://docs.influxdata.com/chronograf/v1)
+- InfluxData. *Comparing push vs pull metrics collection*. InfluxData Blog. \
+  🔗 [Push vs Pull](https://www.influxdata.com/blog/telegraf-push-pull-metrics)
+- OPNsense. *OPNsense vs pfSense – Feature Comparison*. OPNsense Documentation. \
+  🔗 [OPNsense](https://docs.opnsense.org)
+- WireGuard. *WireGuard – Fast, Modern, Secure VPN Tunnel*. WireGuard Project. \
+  🔗 [WireGuard](https://www.wireguard.com)
+- Torvalds, L. *WireGuard merged into Linux Kernel 5.6*. The Linux Kernel Archives, 2020. \
+  🔗 [Linux con WireGuard](https://lkml.org/lkml/2020/1/28/510)
