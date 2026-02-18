@@ -30,6 +30,8 @@ La infraestructura se basa en una arquitectura de red segmentada para garantizar
 
 ### [2. Diseño lógico y físico de la infraestructura](#índice-de-apartados)
 
+<p align="center"><img src="/UD2/img/proyectoOscuto.png" alt="mapa" width="850" height="400"></p>
+
 El diseño sigue un **modelo de defensa** en profundidad:
 
 - **RED 0 (DMZ - 172.15.0.0)**: Zona desmilitarizada que actúa como frontera. Aquí se sitúa el servidor Linux que gestiona las peticiones externas antes de conectar con el backend.
