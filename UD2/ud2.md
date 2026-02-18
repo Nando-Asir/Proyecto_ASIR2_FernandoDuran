@@ -66,6 +66,14 @@ El diseño sigue un **modelo de defensa** en profundidad:
 - **RED 2 (Monitoreo - 192.168.50.0)**: Red aislada para el despliegue de contenedores (Docker) encargados del análisis de logs y métricas del sistema.
 - **Conectividad Cloud**: El servidor Linux establece una conexión segura con AWS BBDD para la persistencia de datos.
 
+monitoring/
+├── docker-compose.yml
+├── influxdb/
+│   └── config.env
+└── telegraf/
+    ├── telegraf-windows.conf
+    └── telegraf-debian.conf
+
 ---
 
 ### [3. Definición de objetivos y fases del proyecto](#índice-de-apartados)
